@@ -1,0 +1,74 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Patrick+Hand&family=Pixelify+Sans&family=Press+Start+2P&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px
+}
+div{
+    padding: 5px;
+    margin: 5px;
+}
+.navbar{
+    border: 5px black;
+    border-radius: 5px;
+    background-color: rgba(106, 196, 181, 0.664);
+}
+#twitter{
+    background-color: rgb(73, 250, 250);
+}
+#twitter a{
+    color: black;
+}
+#dc{
+    background-color: rgb(104, 104, 252);
+}
+#dc a{
+    color:aliceblue
+}
+#fb{
+    background-color: rgb(53, 73, 255);
+}
+#fb a{
+    color: aliceblue;
+}
+#yt{
+    background-color: red;
+}
+#yt a{
+    color: aliceblue;
+}
+#github{
+    background-color: rgb(247, 103, 51);
+}
+#github a{
+    color: black
+}
+.links{
+    display: inline;
+    border: 5px;
+    font-family: 'Handlee';
+    font-weight: 600;
+    opacity: 0.5;
+    transition: .4s;
+}
+.links:hover{
+    opacity: 1;
+    transition: 1;
+    font-size: larger;
+}
+#linksgroup{
+    text-align: center;
+
+}
+.links a{
+    text-decoration: none; 
+}
+
+.banner{
+    background-image: url(ducks.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 1900px;
+    height: 1000px;
+}
